@@ -1,0 +1,61 @@
+#accordion-panel-cyberi_securi_panel{
+    background-color: red;
+}
+
+
+/* Custom Styling for Cyberi Securi Panel */
+#accordion-panel-cyberi_securi_panel {
+    background-color: #1a202c; /* Dark background */
+    color: #ffffff; /* White text */
+    border: 1px solid #ffcc00; /* Yellow border */
+    border-radius: 5px;
+}
+
+#accordion-panel-cyberi_securi_panel .accordion-section-title {
+    background: linear-gradient(45deg, #ff6600, #ffcc00);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+/* Hover Effect */
+#accordion-panel-cyberi_securi_panel .accordion-section-title:hover {
+    background: linear-gradient(45deg, #ff4500, #ff9900);
+    color: #fff;
+}
+
+/* Styling the Inner Sections */
+#accordion-panel-cyberi_securi_panel .accordion-section-content {
+    background-color: #2d3748;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Custom Styling for Input Fields */
+.customize-control input,
+.customize-control select,
+.customize-control textarea {
+    background-color: #2d3748;
+    color: white;
+    border: 1px solid #ffcc00;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+/* Make Labels Stand Out */
+.customize-control label {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+
+
+#accordion-panel-cyberi_securi_panel .accordion-section-title::before {
+    content: "\f084"; /* FontAwesome icon code */
+    font-family: dashicons;
+    font-size: 18px;
+    padding-right: 8px;
+    position: absolute;
+}

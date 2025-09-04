@@ -1,0 +1,9 @@
+/* single.css */
+section.banner {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+nav.breadcrumb {
+    gap: 10px;
+}
